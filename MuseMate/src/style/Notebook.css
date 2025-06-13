@@ -1,0 +1,33 @@
+button {
+  margin-bottom: 10px !important;
+}
+
+h2 {
+  margin-top: 10px !important;
+}
+
+.clear-songs-button {
+  background-color: rgb(211, 113, 113);
+}
+
+.clear-songs-button:hover {
+  background-color: rgb(137, 61, 61);
+}
+
+.notebook-container {
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0 !important;
+}
+
+ul li button {
+  background-color: rgb(244, 207, 222);
+}
+
+.notebook-header {
+  margin-bottom: 20px;
+}

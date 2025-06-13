@@ -1,0 +1,197 @@
+html,
+body {
+  background-color: #fdf4e3;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fdf4e3; /* Pastel cream background */
+  height: 100%; /* Ensure it covers the full height */
+  min-height: 100vh; /* Minimum height to fill the viewport */
+}
+
+.right-side-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cl-userButtonTrigger {
+  padding: 0 !important;
+}
+
+.cl-avatarBox {
+  margin-top: 0 !important;
+  position: relative !important;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.navbar {
+  width: 100% !important;
+  padding: 20px 40px !important;
+}
+
+button {
+  border-radius: 8px !important;
+  border: 1px solid transparent !important;
+  padding: 0.6em 1.2em !important;
+  font-size: 1em !important;
+  font-weight: 500 !important;
+  font-family: inherit !important;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: #ededed;
+}
+button:hover {
+  border-color: #68686a !important;
+  background-color: rgba(139, 145, 148, 0.667);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Main container for the app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #fdf4e3;
+}
+
+.app-container {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-self: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Main content section */
+.main-content {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center; /* This ensures the content is centered */
+}
+
+/* Header container to place MuseMate and SongTitle on the same line */
+.header-container {
+  display: flex;
+  align-items: center; /* Align vertically */
+  justify-content: center; /* Center the content horizontally */
+  width: 100%; /* Ensure the header stretches across the width */
+  margin-bottom: 20px; /* Space between header and other content */
+}
+
+.branding {
+  position: absolute;
+  top: 0; /* Remove any space above the title */
+  left: 10px; /* Adjust the left position if needed */
+  font-size: 23px; /* Font size for the title */
+  font-weight: bold; /* Bold styling */
+  color: #9200b2; /* Text color */
+  margin-top: 0; /* Ensure no extra margin above */
+  padding-top: 0; /* Ensure no padding at the top */
+}
+
+/* Song title input and display styles */
+.song-title {
+  font-size: 36px; /* Larger font for the song title */
+  font-weight: normal;
+  color: #000; /* Default color for the title */
+  cursor: pointer;
+  margin: 0 auto; /* Center the title horizontally */
+  display: block;
+  text-align: center; /* Ensure title text is centered */
+}
+
+/* Styling for the rhyme section and dynamic text boxes */
+.rhyme-section,
+.dynamic-text-boxes-section {
+  margin-top: 20px;
+}
+
+.voice-memo-instruction {
+  margin-bottom: 0; /* Remove margin below the instruction */
+  padding: 0; /* Remove any padding */
+  font-size: 20px; /* Optional: Adjust font size */
+  text-align: center; /* Optional: Center the text */
+}
+
+.voice-memo-footer {
+  margin-top: 10vh; /* Ensure no space above the VoiceMemo section */
+  margin-bottom: 3vh;
+}
+
+.voice-memo-footer > div {
+  margin-bottom: 0; /* Remove any extra space inside the footer */
+}
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  background-color: #e1d8b9;
+}
+
+.navbar .navbar-brand {
+  color: #6b4f36;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #6b4f36;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #4a3a2e;
+}
+
+.navbar .right-side-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
